@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>占い</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1><span class="first">1.</span>下のボタンを押して
+        <span class="unsei">"今日の運勢は？"</span>
+        と叫んで下さい！</h1>
+    <h2>*Alertのマイクが出たらマイクをオンにしてからゆっくり叫んでみてください。</br>
+    　　もし変化が無かったら、もう一度やってみて下さい</h2>
+    
+    <div class ="container">
+    <div onclick="recognition()"> 
+        <span id="fortune" class="fortune"><img src="image/btn.png"> </span>
+        <span id="fortune" class ="fortune">  </span>
+    </div>
+    <h3><span class="second">2.</span><span class="rei">例:</span>
+     "今日の運勢"など<span class="rei1" >下の欄　:　　</span>に入力して
+        下の占いボタンを押してください。</h3>
+    <textarea id="text">:</textarea>
+    
+    <div class = "" >
+    <div onclick="draw()">
+        <button id="speak-btn">占いボタン</button>   
+    <div><p id="btn" class="btn"  ></p> 
+    
+    <div id="box" >　<div>
+    </div>
+    　　
+
+    
+    
+    
+       <script src="sample.js"></script>   
+</body>
+</html>

@@ -1,0 +1,73 @@
+body{
+    background-image: url(image/URANAI.jpg);   
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding: 15px 5px;
+    text-align: center;
+}
+h1{
+    font-size: 20px;
+    text-align: center;
+}
+.first{
+    font-size: 40px;
+}
+.unsei{
+    font-size: 40px;
+}    
+
+h2{
+    font-size: 15px;
+    color: red;
+}
+
+.container{
+    font-size: 50px;
+    font-weight: bolder;
+    
+}
+
+
+#fortune{
+    color: red;
+}
+
+.box{
+    font-size: 50px;
+}
+
+#btn{
+    font-size: 1.375rem;
+    background-color: darkslateblue;
+    border-radius: 5px;
+    padding:18px 32px
+    transparent;
+}
+h3{
+    font-size: 20px;
+}
+.second{
+    font-size: 40px;
+}
+.rei{
+    font-size: 20px;
+    color: red;
+       
+}
+#text{
+
+    width: 310px;
+    height: 40px;
+    font-size:30px ;
+    font-weight: bolder;
+    color: blue;
+    background:transparent;
+}
+#speak-btn{
+    background-color: darkslateblue;
+    font-weight: bolder;
+}
+.rei1{
+    color: blue;
+}
